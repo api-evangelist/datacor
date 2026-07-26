@@ -1,9 +1,32 @@
 aid: datacor
 name: Datacor
-description: 'Datacor is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Datacor is an enterprise software company founded in 1981 and headquartered in
+  Florham Park, New Jersey, that builds industry-specific business management and
+  engineering software for process manufacturers, chemical distributors, and
+  animal-nutrition producers. Its business-automation suite spans ERP, CRM, MES,
+  WMS, formulation management, BLISS LIMS, regulatory and nutrition labeling, and
+  TrackAbout asset tracking, while its engineering line delivers chemical process
+  simulation and flow-modeling tools including CHEMCAD, Fathom, Arrow, Impulse,
+  and xStream. Datacor serves the petrochemical, refinery, energy, feed, and
+  specialty-chemical sectors, and has begun layering AI-driven capabilities across
+  its products. The company is backed by Norwest Venture Partners. Datacor does not
+  currently publish a public developer portal, API reference, or API specifications;
+  this profile captures its verified public identity while the API surface (if any)
+  remains behind its customer support portal.
 url: https://raw.githubusercontent.com/api-evangelist/datacor/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.datacor.com/hubfs/2025%20NEW%20Website%20Images/Industry%20Pages/Petrochemical/Petrochemical-5.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Enterprise Software
+- ERP
+- Process Manufacturing
+- Chemical Distribution
+- Chemical Process Simulation
+- Formulation Management
+- LIMS
+- Animal Nutrition
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,18 @@ maintainers:
 common:
 - type: Website
   url: https://datacor.com
+- type: Blog
+  url: https://www.datacor.com/blog
+- type: Support
+  url: https://datacorinc.my.site.com/datacorhub/login
+- type: TermsOfService
+  url: https://www.datacor.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.datacor.com/privacy-policy
+- type: DomainSecurity
+  url: security/datacor-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
